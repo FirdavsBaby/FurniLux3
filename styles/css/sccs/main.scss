@@ -1,0 +1,412 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+// header start 
+.header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  .furnilux {
+  width: 120px;
+  height: 40px;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.Lux {
+  color: #579b20;
+}
+.header2 {
+  color: gray;
+  line-height: 3;
+  margin-left: 210px;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 60px;
+}
+.sign {
+  font-size: 19px;
+  color: #579b20;
+  line-height: 3;
+  justify-content: space-around;
+  margin-left: 120px;
+  display: flex;
+  width: 260px;
+  height: 60px;
+}
+.in {
+  width: 129px;
+  height: 60px;
+}
+.up:hover {
+  font-size: 22px;
+  line-height: 2.2;
+  background-color: purple;
+}
+.up {
+  transition: 0.6s;
+  border-radius: 10px;
+  line-height: 2.5;
+  text-align: center;
+  color: white;
+  background-color: #579b20;
+  width: 129px;
+  height: 50px;
+  margin-top: 10px;
+}
+.text-header1 {
+  font-size: 20px;
+  width: 420px;
+  height: 100px;
+  color: black;
+}
+.text-about1 {
+  padding-top: 50px;
+  font-size: 23px;
+  color: whitesmoke;
+}
+.btn1 {
+  transition: 0.7s;
+  line-height: 2;
+  color: white;
+  background-color: #579b20;
+  font-size: 17px;
+  width: 165px;
+  height: 40px;
+  margin-top: 50px;
+}
+.btn1:hover {
+  line-height: 2;
+  font-size: 21px;
+  width: 177px;
+  height: 52px;
+  background-color: white;
+  color: #579b20;
+}
+// header end 
+}
+// nav start 
+.nav {
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../../photos/pexels-pixabay-271816.jpg");
+  width: 100%;
+  height: 550px;
+.text-about1 {
+  padding-top: 50px;
+  font-size: 23px;
+  color: whitesmoke;
+}
+.btn1 {
+  transition: 0.7s;
+  line-height: 2;
+  color: white;
+  background-color: #579b20;
+  font-size: 17px;
+  width: 165px;
+  height: 40px;
+  margin-top: 50px;
+}
+}
+a {
+  text-decoration: inherit;
+  color: white;
+}
+// nav end 
+// article start 
+.article {
+  margin-top: 30px;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 30px;
+  margin-left: 220px;
+  width: 70%;
+  height: 85px;
+  .about-product {
+  padding-left: 65px;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #579b20;
+  display: flex;
+  border: none;
+  border-left: 1px solid black;
+  width: 300px;
+  height: 70px;
+  .about1 {
+  margin-top: 18px;
+  line-height: 1;
+  margin-left: 20px;
+  width: 30px;
+  height: 20px;
+  font-size: 23px;
+  color: gray;
+}
+}
+}
+// article end
+// section start
+.section {
+  margin-top: 50px;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 1000px;
+  .pop {
+  margin-left: 110px;
+}
+ .popular {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 110px;
+  width: 85%;
+  height: 300px;
+    .img1 {
+    box-shadow: 5px 5px 10px black;
+    padding-top: 200px;
+    font-size: 25px;
+    color: #201d1d;
+    text-align: center;
+    border-radius: 30px;
+    width: 273px;
+    height: 300px;
+    background-image: url(../../../photos/pexels-medhat-ayad-439227.jpg);
+}
+.img2 {
+  box-shadow: 5px 5px 10px black;
+  padding-top: 200px;
+  font-size: 25px;
+  color: orangered;
+  text-align: center;
+  border-radius: 30px;
+  width: 273px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-huseyn-kamaladdin-667838.jpg);
+}
+.img3 {
+  box-shadow: 5px 5px 10px black;
+  padding-top: 200px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  border-radius: 30px;
+  width: 273px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-pixabay-271816.jpg);
+}
+.img4 {
+  box-shadow: 5px 5px 10px black;
+  padding-top: 200px;
+  font-size: 25px;
+  color: yellow;
+  text-align: center;
+  border-radius: 30px;
+  width: 273px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-jean-van-der-meulen-1457842.jpg);
+}
+      .number-prod {
+  width: 260px;
+  color: gray;
+  margin-top: 20px;
+  font-size: 17px;
+}
+}
+.dis {
+  margin-top: 60px;
+  margin-left: 110px;
+}
+.discover {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 110px;
+  width: 85%;
+  height: 300px;
+  .items {
+  box-shadow: 5px 5px 10px black;
+  border-radius: 30px;
+  margin-top: 20px;
+  width: 275px;
+  height: 380px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+      .img5 {
+  padding-top: 200px;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 275px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-pixabay-279746.jpg);
+  .cup {
+  margin-top: 100px;
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+  text-align: left;
+  color: gray;
+}
+}
+.img6 {
+  padding-top: 200px;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  border-radius: 30px;
+  width: 275px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-pixabay-271816.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  .cup {
+  margin-top: 100px;
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+  text-align: left;
+  color: gray;
+}
+}
+.img7 {
+  padding-top: 200px;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  border-radius: 30px;
+  width: 275px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-medhat-ayad-439227.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  .cup {
+  margin-top: 100px;
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+  text-align: left;
+  color: gray;
+}
+}
+.img8 {
+  padding-top: 200px;
+  font-size: 25px;
+  color: gray;
+  text-align: center;
+  border-radius: 30px;
+  width: 275px;
+  height: 300px;
+  background-image: url(../../../photos/pexels-huseyn-kamaladdin-667838.jpg);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  .cup {
+  margin-top: 100px;
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+  text-align: left;
+  color: gray;
+}
+}
+img {
+  border-radius: 10px;
+  margin-left: 230px;
+  margin-top: 60px;
+}
+}
+}
+} 
+// section end 
+// about us start 
+.about-us {
+  display: flex;
+  width: 100%;
+  height: 500px;
+        .img10 {
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 150px;
+  background-image: url(../../../photos/pexels-pixabay-210604.jpg);
+  width: 55%;
+  height: 500px;
+}
+.text {
+  box-shadow: -5px -5px 20px #7648cc;
+  border-radius: 60px;
+  background-color: #7648cc;
+  padding-top: 80px;
+  padding-left: 100px;
+  width: 45%;
+  height: 500px;
+  .us {
+  font-size: 20px;
+  color: #68c020;
+}
+.text-nav {
+  color: white;
+  margin-top: 20px;
+  width: 280px;
+  height: 80px;
+}
+.text-fotore {
+  color: gray;
+  margin-top: 10px;
+  width: 400px;
+}
+.second {
+  color: #b4abab;
+}
+.learn-more {
+  transition: 0.3s;
+  color: white;
+  border-radius: 20px;
+  font-size: 25px;
+  line-height: 2;
+  text-align: center;
+  width: 160px;
+  height: 50px;
+  background-color: #579b20;
+  margin-top: 50px;
+}
+}
+}
+// about us end 
+// fotore start 
+.fotore {
+  color: #7648cc;
+  margin-top: 40px;
+  margin-left: 85px;
+  width: 90%;
+  border: 1px solid black;
+  height: 300px;
+  .other {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 170px;
+}
+.h1 {
+  color: #579b20;
+  margin-top: 40px;
+  margin-left: 85px;
+}
+.other2 {
+  margin-top: 10px;
+  color: blue;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+}
+// fotore end 
